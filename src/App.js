@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import ProjectsList from './components/ProjectsList';
-import Contact from './components/Contact';
-import Navbar from './components/Navbar';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Components/Home';
+import About from './Components/About';
+import ProjectsList from './Components/ProjectsList';
+import Contact from './Components/Contact';
+import Navbar from './Components/Navbar';
 
 function App() {
     return (
@@ -12,9 +12,9 @@ function App() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/projects" element={<ProjectsList />} />
-                <Route path="/contact" element={<Contact />} />
+                <Route path="/About" element={<About />} />
+                <Route path="/Projects" element={<ProjectsList />} />
+                <Route path="/Contact" element={<Contact />} />
             </Routes>
         </Router>
     );

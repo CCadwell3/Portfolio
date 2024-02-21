@@ -1,0 +1,12 @@
+/* Example for Navbar.css */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Add similar basic styling for ProjectsList.css and Contact.css */
