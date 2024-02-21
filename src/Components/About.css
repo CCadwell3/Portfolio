@@ -1,0 +1,22 @@
+.about {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+    .about h2 {
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        margin-bottom: 15px;
+    }
+
+    .about ul {
+        list-style-type: circle;
+        margin-left: 20px;
+    }
+
+    .about li {
+        margin-bottom: 10px;
+    }
