@@ -1,18 +1,38 @@
-.home {
-    text-align: center;
-    padding: 40px;
-    color: #333;
-    background-color: #f0f0f0;
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  background-color: #F0F0F0;
 }
 
-    .home h1 {
-        margin-bottom: 20px;
-        color: #2c3e50;
-    }
+.hero {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 100px 20px;
+}
 
-    .home p {
-        font-size: 18px;
-        line-height: 1.6;
-        max-width: 800px;
-        margin: 0 auto; /* Centers the text block */
-    }
+.hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #007FFF;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #007FFF;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Add more styles as needed */

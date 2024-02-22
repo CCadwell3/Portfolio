@@ -1,22 +1,53 @@
 .about {
-    padding: 20px;
-    line-height: 1.6;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 20px;
 }
 
     .about h2 {
-        color: #2c3e50;
+        font-family: 'Montserrat', sans-serif;
+        color: #007FFF;
+    }
+
+    .about p, .about ul {
+        font-size: 18px;
         margin-bottom: 20px;
     }
 
-    .about p {
-        margin-bottom: 15px;
-    }
-
+    /* Additional styles for UL */
     .about ul {
-        list-style-type: circle;
-        margin-left: 20px;
+        list-style: none; /* Remove default bullets */
+        padding: 0; /* Remove default padding */
+        display: inline-block; /* Allows the block to be centered as a whole */
+        text-align: left; /* Aligns the text to the left within the centered block */
     }
 
-    .about li {
-        margin-bottom: 10px;
+        /* Styles for LI to add custom bullets */
+        .about ul li {
+            position: relative; /* Prepares the LI for a pseudo-element */
+        }
+
+            .about ul li:before {
+                content: '•'; /* Bullet character */
+                color: #007FFF; /* Bullet color to match design */
+                position: absolute;
+                left: -1.2em; /* Adjust as needed to align bullets to the center */
+            }
+
+
+.button {
+    background-color: #007FFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .button:hover {
+        background-color: #0056b3;
     }
+
+/* Add more styles as needed */
