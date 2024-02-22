@@ -1,0 +1,25 @@
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-box {
+    display: block;
+    width: 300px; /* Adjust based on your preference */
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits text color */
+}
+
+.project-image {
+    width: 100%; /* Makes image fill the container */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures images cover the area nicely */
+}
+
+.project-info {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Translucent background for text */
+    color: white; /* White text */
+}
